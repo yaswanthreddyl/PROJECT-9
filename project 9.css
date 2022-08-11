@@ -1,0 +1,347 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  width: 100vw;
+  height: 310vh;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+header {
+  height: 45vh;
+  width: 100vw;
+  background-color: blue;
+}
+.logo {
+  position: absolute;
+  width: 8vw;
+  height: 8vh;
+  top: 3vh;
+  left: 10vw;
+}
+nav {
+  display: flex;
+  justify-content: row;
+  width: 40%;
+  position: relative;
+  left: 59vw;
+  top: 2vh;
+  font-size: 15px;
+}
+.nav-item-active {
+  background-color: white;
+  height: 3vh;
+  text-align: center;
+  font-size: 10px;
+  position: absolute;
+  width: 5vw;
+  left: 32vw;
+  top: 1vh;
+}
+.header-image {
+  width: 40%;
+  height: 50%;
+  position: absolute;
+  top: 7vh;
+  left: 60vw;
+}
+.header-text h2 {
+  position: absolute;
+  top: 20vh;
+  left: 10vw;
+  color: white;
+}
+.header-text p {
+  position: absolute;
+  top: 35vh;
+  left: 10vw;
+  color: white;
+}
+.header-text img {
+  position: absolute;
+  top: 18vh;
+  left: 10vw;
+  height: 1vh;
+  width: 3vw;
+  border-radius: 5px;
+}
+.companies {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin-left: 10vw;
+  margin-top: 2vh;
+}
+.company-items {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+  font-weight: 600;
+}
+.api-heading {
+  font-size: 30px;
+  width: 20%;
+  position: absolute;
+  left: 10vw;
+  top: 55vh;
+}
+.card-logo {
+  width: 50px;
+  height: 50px;
+}
+.cards .card-active {
+  position: absolute;
+  top: 75vh;
+  left: 10vw;
+}
+.card-active + .card {
+  position: absolute;
+  top: 75vh;
+  left: 25vw;
+}
+.card-active + .card + .card {
+  position: absolute;
+  top: 75vh;
+  left: 40vw;
+}
+.card-active + .card + .card + .card {
+  position: absolute;
+  top: 75vh;
+  left: 55vw;
+}
+.card-active + .card + .card + .card + .card {
+  position: absolute;
+  top: 75vh;
+  left: 70vw;
+}
+.card-active p {
+  position: absolute;
+  top: 19vh;
+  left: 0;
+  font-size: 12px;
+}
+.card-active + .card p {
+  position: absolute;
+  top: 19vh;
+  left: 0;
+  font-size: 12px;
+}
+.card-active + .card + .card p {
+  position: absolute;
+  top: 16vh;
+  left: 0;
+  font-size: 12px;
+}
+.card-active + .card + .card + .card p {
+  position: absolute;
+  top: 19vh;
+  left: 0;
+  font-size: 12px;
+}
+.card-active + .card + .card + .card + .card p {
+  position: absolute;
+  top: 19vh;
+  left: 0;
+  font-size: 12px;
+}
+.blog-heading h1 {
+  position: absolute;
+  top: 110vh;
+  left: 10vw;
+}
+.blog-image img {
+  position: absolute;
+  top: 130vh;
+  left: 10vw;
+  width: 25vw;
+  height: 35vh;
+}
+.blog-cards .blog-card + .blog-card .blog-image img {
+  position: absolute;
+  top: 130vh;
+  left: 55vw;
+  width: 25vw;
+  height: 35vh;
+}
+.blog-image + .blog-content h6 {
+  position: absolute;
+  top: 133vh;
+  left: 38vw;
+  color: blue;
+}
+.blog-image + .blog-content h3 {
+  position: absolute;
+  top: 138vh;
+  left: 38vw;
+}
+.blog-cards .blog-card + .blog-card .blog-image + .blog-content h3 {
+  position: absolute;
+  top: 138vh;
+  left: 83vw;
+}
+.blog-cards .blog-card + .blog-card .blog-image + .blog-content h6 {
+  position: absolute;
+  top: 133vh;
+  left: 83vw;
+}
+.blog-cards .blog-card + .blog-card .blog-image + .blog-content small {
+  position: absolute;
+  top: 148vh;
+  left: 83vw;
+  font-size: 10px;
+}
+.blog-image + .blog-content small {
+  position: absolute;
+  top: 148vh;
+  left: 38vw;
+  font-size: 10px;
+}
+.blog-bottom img {
+  position: absolute;
+  top: 162vh;
+  left: 37vw;
+  width: 30px;
+  height: 30px;
+}
+.blog-cards .blog-card + .blog-card .blog-bottom img {
+  position: absolute;
+  top: 162vh;
+  left: 82vw;
+  width: 30px;
+  height: 30px;
+}
+.blog-author b {
+  position: absolute;
+  top: 162vh;
+  left: 40vw;
+}
+.blog-cards .blog-card + .blog-card .blog-author b {
+  position: absolute;
+  top: 162vh;
+  left: 85vw;
+}
+.faq-section {
+  background-color: rgb(158, 158, 240);
+  width: 100vw;
+  height: 55vh;
+  position: absolute;
+  top: 180vh;
+}
+.faq-content h2 {
+  position: relative;
+  top: 2vh;
+  left: 10vw;
+}
+.faq-content h4 {
+  position: absolute;
+  top: 20vh;
+  left: 10vw;
+}
+.faq-content h4 + h4 {
+  position: absolute;
+  top: 33vh;
+  left: 10vw;
+}
+.faq-content button {
+  position: absolute;
+  top: 40vh;
+  left: 10vw;
+  height: 30px;
+  width: 90px;
+  background-color: blue;
+  border-radius: 5px;
+  border: 10px;
+}
+.faq-image img {
+  position: absolute;
+  top: 0;
+  left: 70vw;
+  height: 55vh;
+  width: 30vw;
+}
+.download-content h1 {
+  position: absolute;
+  left: 10vw;
+  top: 250vh;
+}
+.download-email input {
+  position: absolute;
+  left: 50vw;
+  top: 250vh;
+  width: 40vw;
+  height: 7vh;
+  border-radius: 10px;
+  border: 1px;
+  background-color: rgb(158, 158, 240);
+  padding: 1vh 2vw;
+}
+.download-email button {
+  position: absolute;
+  left: 82vw;
+  top: 251.25vh;
+  width: 10vw;
+  height: 6vh;
+  border-radius: 10px;
+  border: 1px;
+  background-color: blue;
+}
+.footer-section {
+  background-color: blue;
+  position: absolute;
+  width: 100vw;
+  height: 40vh;
+  top: 270vh;
+}
+.footer-logo {
+  position: relative;
+  top: 2vh;
+  left: 10vw;
+  width: 50px;
+  height: 40px;
+}
+.list {
+  display: flex;
+  list-style: none;
+  width: 50%;
+  position: relative;
+  left: 10vw;
+  top: 5vh;
+  color: white;
+}
+.footer-right .footer-logos {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 90vw;
+  top: 5vh;
+}
+.footer-right .footer-logos + .footer-logos {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 85vw;
+  top: 5vh;
+}
+.footer-right .footer-logos + .footer-logos + .footer-logos {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 80vw;
+  top: 5vh;
+}
+.logos-list {
+  display: grid;
+  grid-template-columns: 40px 60px 20px;
+  list-style: none;
+  position: absolute;
+  left: 82vw;
+  top: 15vh;
+  color: white;
+  font-size: 10px;
+}
+body {
+  overflow-x: hidden;
+}
